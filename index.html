@@ -31,15 +31,158 @@
           data-bs-theme="dark"
         >
           <div class="container">
+            <!-- Website Brand -->
             <a href="#" class="navbar-brand"
               ><img
                 src="img/droplet.png"
                 alt="Water logo"
                 class="d-inline-block-align-text-top w-50"
             /></a>
+
+            <!-- Hamburger Menu Button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+            <div class="collapse navbar-collapse" id="navmenu">
+              <!--links-->
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    href="authors.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Authors</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="procedure.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Procedure</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="results.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Results</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </header>
+
+      <!--Showcase-->
+
+      <section class="showcase text-light p-2 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 p-0 d-flex align-items-center">
+              <img src="img/img-5509.jpg" alt="Shark River" class="img-fluid" />
+              <!-- img-fluid won't expand image larger than the container and will scale
+                appropriately if the browser gets narrower than the image's set width-->
+            </div>
+            <div class="col-sm-6 p-0 d-flex align-items-center">
+              <div class="container">
+                <h1 class="display-4">
+                  Water Temperatures Near Avon, NJ (2021-2022)
+                </h1>
+                <!--display-4 will make the <h1> text stand out-->
+                <h2>Building a site with Bootstrap Demo</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Overview-->
+      <section class="overview text-dark p-2 text-left">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 p-3">
+              <img
+                src="img/19418.jpeg"
+                alt="Water Temperature Graph"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="col-sm-8 p-3">
+              <h1 class="overview-left-padding">Background</h1>
+              <!--Overview Left Padding-->
+              <p class="lead overview-font overview-left-padding">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                ipsum nisi, rhoncus non leo et, iaculis consequat erat.
+                Suspendisse lacinia quam eget purus lobortis, non facilisis
+                lacus elementum. Nullam ut posuere felis. Etiam viverra, massa
+                ut aliquam consectetur, nibh lectus feugiat lacus, eget pulvinar
+                libero ipsum id sapien. Vivamus fringilla nisi ac lorem egestas,
+                id condimentum tellus volutpat. Donec blandit, lorem eget
+                molestie rutrum, ex lorem tincidunt ligula, eu dignissim nulla
+                augue posuere ipsum. Etiam a viverra ligula, nec pulvinar lorem.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8 p-3">
+              <h1 class="overview-left-padding">Rationale</h1>
+              <!--Overview Left Padding-->
+              <p class="lead overview-font overview-left-padding">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                ipsum nisi, rhoncus non leo et, iaculis consequat erat.
+                Suspendisse lacinia quam eget purus lobortis, non facilisis
+                lacus elementum. Nullam ut posuere felis.
+              </p>
+            </div>
+
+            <div class="col-sm-4 p-3">
+              <img src="img/watermap.jpg" alt="Water Map" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 p-3">
+            <img
+              src="img/phytoplankton-pnas.jpg"
+              alt="Water Temperature Graph"
+              class="img-fluid"
+            />
+          </div>
+
+          <div class="col-sm-8 p-3">
+            <h1 class="overview-left-padding">Background</h1>
+            <!--Overview Left Padding-->
+            <p class="lead overview-font overview-left-padding">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ipsum
+              nisi, rhoncus non leo et, iaculis consequat erat. Suspendisse
+              lacinia quam eget purus lobortis, non facilisis lacus elementum.
+              Nullam ut posuere felis. Etiam viverra, massa ut aliquam
+              consectetur, nibh lectus feugiat lacus, eget pulvinar libero ipsum
+              id sapien. Vivamus fringilla nisi ac lorem egestas, id condimentum
+              tellus volutpat. Donec blandit, lorem eget molestie rutrum, ex
+              lorem tincidunt ligula, eu dignissim nulla augue posuere ipsum.
+              Etiam a viverra ligula, nec pulvinar lorem.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="p-5 footer text-light text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; SE 2026 Bootstrap Demo</p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
